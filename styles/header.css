@@ -1,0 +1,80 @@
+.header{
+  height : 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border: none;
+  background-color: lightgray;
+
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+  background-color: lightcoral;
+  width: 100px;
+  margin-right: 0px;
+  border: none
+}
+.hamburger-menu{
+  height: 35px;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 2;
+  margin-left: 70px;
+  margin-right: 20px;
+  background-color: turquoise;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.logo{
+  padding-left: 500px;
+  height: 80px;
+  
+}
+.right-section{
+  display: flex;
+  flex: 1;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  background-color: lightpink;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.search-button{ 
+  height: 80px;
+  left: 0;
+  background-color: black;
+  color: white;
+}
+.favourite-button{
+  height: 80px;
+  left:0;
+  background-color: blue;
+  color: white;
+}
+.location-button{
+  height: 80px;
+  left: 0;
+  background-color: black;
+  color: white;
+}
+.cart-button{
+  height: 80px;
+  left:0;
+  background-color: blue;
+  color: white;
+}
