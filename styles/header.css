@@ -36,9 +36,9 @@
   margin-right: 0px;
 }
 .logo{
-  padding-left: 500px;
+  margin-left: 500px;
   height: 80px;
-  
+  cursor: pointer;
 }
 .right-section{
   display: flex;
@@ -58,10 +58,16 @@
   height: 80px;
   left: 0;
   margin-right: 0px;
+  cursor: pointer;
+}
+.search-button :hover{
+  background-color: rgb(199, 187, 187); 
+  border-radius: 20px; 
 }
 .search-icon{
   display: flex;
   height: 30px;
+  padding: 10px 10px;
 }
 .favourite-button{
   display: flex;
@@ -72,10 +78,16 @@
   left:0;
   margin-right: 0px;
   margin-left: 0px;
+  cursor: pointer;
+}
+.favourite-button :hover{
+  background-color: rgb(199, 187, 187); 
+  border-radius: 20px; 
 }
 .favourite-icon{
   display: flex;
   height: 30px;
+  padding: 10px 10px;
 }
 .location-button{
   display: flex;
@@ -84,10 +96,16 @@
   justify-content: center;
   height: 80px;
   left: 0;
+  cursor: pointer;
+}
+.location-button :hover{
+  background-color: rgb(199, 187, 187); 
+  border-radius: 20px; 
 }
 .location-icon{
   display: flex;
   height: 30px;
+  padding : 10px 10px
 }
 .cart-button{
   display: flex;
@@ -96,8 +114,14 @@
   justify-content: center;
   height: 80px;
   left:0;
+  cursor: pointer;
+}
+.cart-button :hover{
+  background-color: rgb(199, 187, 187); 
+  border-radius: 20px;
 }
 .cart-icon{
   display: flex;
   height: 30px;
+  padding: 10px 10px;
 }
