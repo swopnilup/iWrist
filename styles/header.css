@@ -11,14 +11,12 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border: none;
-  background-color: lightgray;
 
 }
 
 .left-section{
   display: flex;
   align-items: center;
-  background-color: lightcoral;
   width: 100px;
   margin-right: 0px;
   border: none
@@ -34,7 +32,6 @@
   flex: 2;
   margin-left: 70px;
   margin-right: 20px;
-  background-color: turquoise;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -50,31 +47,57 @@
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
-  background-color: lightpink;
   margin-left: 0px;
   margin-right: 0px;
 }
 .search-button{ 
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   height: 80px;
   left: 0;
-  background-color: black;
-  color: white;
+  margin-right: 0px;
+}
+.search-icon{
+  display: flex;
+  height: 30px;
 }
 .favourite-button{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   height: 80px;
   left:0;
-  background-color: blue;
-  color: white;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.favourite-icon{
+  display: flex;
+  height: 30px;
 }
 .location-button{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   height: 80px;
   left: 0;
-  background-color: black;
-  color: white;
+}
+.location-icon{
+  display: flex;
+  height: 30px;
 }
 .cart-button{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
   height: 80px;
   left:0;
-  background-color: blue;
-  color: white;
+}
+.cart-icon{
+  display: flex;
+  height: 30px;
 }
