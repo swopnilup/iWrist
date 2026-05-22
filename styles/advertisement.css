@@ -9,7 +9,8 @@
       border-radius: 12px;
       margin-bottom: 15px;
     }
-    .first-adv{
+    .first-adv,
+     .second-adv{
       width: 1300px;
       height:500px;
     }
