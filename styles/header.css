@@ -11,7 +11,7 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border: none;
-
+  z-index: 999;
 }
 
 .left-section{
