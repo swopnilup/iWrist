@@ -1,3 +1,14 @@
+.latest-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  background-color: rgb(233, 224, 224);
+}
+
+
+
 .latest-product-img{
   height: 250px;
+  margin-top: 20px;
 }
