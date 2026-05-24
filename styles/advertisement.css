@@ -1,3 +1,5 @@
+
+
 .banner-wrap {
       position: relative;
       width: 100%;
@@ -8,6 +10,8 @@
       overflow: hidden;
       border-radius: 12px;
       margin-bottom: 15px;
+      display: grid;
+      grid-template-columns: 1fr;
     }
     .first-adv,
      .second-adv{
@@ -74,7 +78,7 @@
       justify-content: center;
       padding: 5px 0;
       background: white;
-      margin-bottom: 80px;
+      margin-bottom: 0px;
     }
     .dot {
       width: 10px;

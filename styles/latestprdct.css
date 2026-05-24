@@ -1,14 +1,104 @@
-.latest-product{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 40px;
-  background-color: rgb(233, 224, 224);
+/* recommendations.css */
+
+.recommendations {
+  padding: 40px 40px;
+  background-color: #ffffff;
 }
 
+.rec-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 8px;
+}
 
+.rec-subtitle {
+  font-size: 14px;
+  color: #555;
+  max-width: 320px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
 
-.latest-product-img{
-  height: 250px;
-  margin-top: 20px;
+/* Grid of cards */
+.watch-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* Individual card */
+.watch-card {
+  position: relative;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.watch-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Favourite heart button — top left */
+.fav-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.fav-icon {
+  height: 20px;
+  width: 20px;
+  /* tint it green like in the screenshot: */
+  filter: invert(40%) sepia(80%) saturate(400%) hue-rotate(100deg);
+}
+
+/* Text block */
+.watch-info {
+  flex: 1;
+  padding-top: 36px; /* pushes below the heart icon */
+}
+
+.watch-info h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 4px;
+}
+
+.watch-info p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Watch image — right side */
+.watch-img {
+  height: 160px;
+  width: 160px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Responsive: stack to 1 column on small screens */
+@media (max-width: 768px) {
+  .watch-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .watch-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/styles/header.css">
   <link rel="stylesheet" href="/styles/advertisement.css">
   <link rel="stylesheet" href="/styles/latestprdct.css">
+  <link rel="stylesheet" href="/styles/general.css">
   <script src="script/script.js" defer></script>
 </head>
 <body>
@@ -82,19 +83,48 @@
   <button class="nav-btn nav-prev" id="prev">&#8249;</button>
   <button class="nav-btn nav-next" id="next">&#8250;</button>
 
-  <div class="latest-product">
-    <div class="preview1">
-      <img class="latest-product-img"src ="apple/apple11black.jpg">
-      <p>Apple watch</p>
-      <p>Rs 1,80,000</p>
+  <!-- Watches You May Like Section -->
+<section class="recommendations">
+  <h2 class="rec-title">Watches you may like</h2>
+  <p class="rec-subtitle">These watches have been selected for you to add to your list of favourites.</p>
+
+  <div class="watch-grid">
+
+    <div class="watch-card">
+      <button class="fav-btn" aria-label="Add to favourites">
+        <img src="icons/favourite.svg" class="fav-icon">
+      </button>
+      <div class="watch-info">
+        <h3>Apple Ultra 2</h3>
+        <p>classic, oled, Oystersteel</p>
+      </div>
+      <img class="watch-img" src="/apple/appleultra2.png" alt="apple ultra 2">
     </div>
 
-    <div class="preview2">
-      <img class="latest-product-img"src ="/rolex/rolex airking.png">
-      <p>Apple watch</p>
-      <p>Rs 1,80,000</p>
+    <div class="watch-card">
+      <button class="fav-btn" aria-label="Add to favourites">
+        <img src="icons/favourite.svg" class="fav-icon">
+      </button>
+      <div class="watch-info">
+        <h3>Rolex GMT master</h3>
+        <p>Diamond blue, 41 mm, ruby</p>
+      </div>
+      <img class="watch-img" src="/rolex/rolex gmtmaster.png" alt="Rolex gmtmaster">
     </div>
+
+    <div class="watch-card">
+      <button class="fav-btn" aria-label="Add to favourites">
+        <img src="icons/favourite.svg" class="fav-icon">
+      </button>
+      <div class="watch-info">
+        <h3>Submariner Date</h3>
+        <p>Oyster, 41 mm, Oystersteel and yellow gold</p>
+      </div>
+      <img class="watch-img" src="watches/submariner-blue.png" alt="Submariner Date blue bezel gold">
+    </div>
+
   </div>
+</section>
 
 </main>
   
