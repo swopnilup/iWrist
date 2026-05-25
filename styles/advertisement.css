@@ -14,7 +14,8 @@
       grid-template-columns: 1fr;
     }
     .first-adv,
-     .second-adv{
+     .second-adv,
+     .third-adv{
       width: 1300px;
       height:500px;
     }
