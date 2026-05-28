@@ -25,6 +25,7 @@
   height: 35px;
   margin-left: 24px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .middle-section{
   display: flex;
